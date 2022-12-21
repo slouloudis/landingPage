@@ -1,6 +1,6 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background-color:royalblue;
+    background:#1f2937;
 }
 
 .logo{
@@ -10,9 +10,9 @@ body{
     display: flex;
     justify-content: left;
     border: 10px;
-    padding-left: 80px;
-    padding-top: 60px;
-
+    padding-left: 180px;
+    padding-right: 600px;
+    padding-top: 10px;
 }
 
 .top{
@@ -24,10 +24,11 @@ body{
 }
 
 .navLinks{
-    margin: 0px;
-    padding: 0;
+    margin: 10pxpx;
+    padding: 10px;
+    padding-right: 150px;
     display: flex;
-    justify-content: right;
+    justify-content: left;
     font-size: 10px;
 }
 
@@ -43,16 +44,22 @@ h3{
     font-size: 40px;
 }
 .quote{
-    text-justify:newspaper;
-    align-items: center;
+    text-align: center;
     padding: 10vh;
-    background-color: azure;
+    background-color:rgb(242, 242, 242);
+    border-left: 50px;
+    border-right: 50px;
+    font-style: italic;
+    font-size: 1.2rem;
 }
 .information{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-block: 60px;
+    padding-block: 0px;
     margin-block: 30px;
     background-color: white;
+}
+.awesome{
+    
 }
